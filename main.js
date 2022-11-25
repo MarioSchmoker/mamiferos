@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var carnivoros_1 = require("./carnivoros");
+var herviboros_1 = require("./herviboros");
+var insectivoros_1 = require("./insectivoros");
+var omnivoros_1 = require("./omnivoros");
+var carnivoroUno = new carnivoros_1.Carnivoro(true, " Tigre ", " Carne");
+var herviboroUno = new herviboros_1.Herviboro(true, " Vaca ", " Vegetales");
+var insectivoroUno = new insectivoros_1.Insectivoro(true, " Araña ", " Insectos");
+var omnivoroUno = new omnivoros_1.Omnivoro(true, " Oso ", " Animales y Vegetales ");
+carnivoroUno.alimentarse();
+herviboroUno.alimentarse();
+insectivoroUno.alimentarse();
+omnivoroUno.alimentarse();
